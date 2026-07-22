@@ -15,16 +15,77 @@
 
 	<nav>
 		<a href="#home">Home</a>
-		<a href="#about">About</a>
-		<a href="#education">Education</a>
+		<a href="My_Pofiolio.pdf" target="_blank">About</a>
+		<a href="mygrades.pdf" target="_blank">Education</a>
 		<a href="#skills">Skills</a>
 		<a href="#projects">Projects</a>
 		<a href="#contact">Contact</a>
 	</nav>
 </header>
 
+<br><br><br>
+<br><br><br>
+
+<div class="timeline">
+	<div class="card">
+		<h3>自己紹介</h3>
+		<p style="color:gold;">
+		はじめまして、私の名前は オッカーチョー と申します。
+		2023年の10月1日に ミャンマーから来日しました。
+		現在は、ELICビジネス＆公務員専門学校のITスキル科で、
+		基本的なプログラミングを学んでおります。
+		どうぞよろしくお願いたします。
+		</p>
+	</div>
+
+	<div class="card">
+		<h3>私の長所</h3>
+		<p style="color:gold;">
+		私の強みは、こつこつ努力を続けることです。新しいことを積極的に学び、
+		分からないことがあっても、すぐに諦めるのではなく、
+		自分で調べながら理解できるようにしています。
+		今後も、新しい技術を積極的に学びながら成長したいと考えています。
+		</p>
+	</div>
+
+	<div class="card">
+	<h3>私の短所</h3>
+	<p style="color:gold;">
+	私の短所は、細かいことが気になり、一つの作業に時間をかけすぎてしまうところです。
+	しかし、正確さだけでなく時間配分も大切だと学びました。現在は、
+	タイマーを活用し、優先順位を意識しながら効率よく作業を進めるよう心掛けています。
+	</p>
+	</div>
+<br>
+<div style="clear: both;max-width: 60%; margin: 30px auto 0; background: linear-gradient(145deg, #1a2744, #0f1a30); border: 2px solid #4a90d9; border-radius: 15px; padding: 25px 30px; box-shadow: 0 8px 20px rgba(0,0,0,0.4);">
+	<h3 style="color: #4a90d9; margin-top: 0;">ITに興味を持った理由</h3>
+	<p style="color: #FFD966; font-size: 17px; line-height: 1.9; margin: 0;">
+		私がITに興味を持ったきっかけは、自分でWebサイトを作成したことです。
+		HTMLやCSSを学びながら、思い描いたデザインが画面に形になっていく楽しさを感じました。
+		その後、PHPやデータベースにも興味を持ち、ログイン機能などの簡単なシステム開発にも挑戦しました。
+		分からないことは自分で調べながら学び続ける中で、
+		「もっと技術を身につけ、日本で多くの人の役に立つシステムを開発したい」と考えるようになり、
+		ITエンジニアを目指しています。
+	</p>
+</style>
+</div>
+
+<style>
+.timeline {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: center;
+}
+.card {
+	flex: 1 1 300px;
+	max-width: 350px;
+}
+
+</style>
+
 <section id="home" class="hero">
-<div class="content">
+	<div class="content">
 		<h3>Hello, I'm</h3>
 
 		<h1>OAKAR KYAW</h1>
@@ -36,108 +97,108 @@
 			<a href="https://github.com/oakar25-sys?tab=repositories" class="btn" target="_blank">View Projects</a>
 		<br><br>
 		<a href="mailto:oakar1162@gmail.com" class="btn2">Contact Me</a>
-</div>
+	</div>
 
-<div class="image">
-	<img src="profile.png" alt="profile">
-</div>
+	<div class="image">
+		<img src="profile.png" alt="profile">
+	</div>
 
+	<style>
+		*{
+			margin:0;
+			padding:0;
+			box-sizing:border-box;
+			font-family:Poppins,sans-serif;
+		}
 
-<style>
-*{
-	margin:0;
-	padding:0;
-	box-sizing:border-box;
-	font-family:Poppins,sans-serif;
-}
+		body{
+			background:#0f172a;
+			color:white;
+		}
 
-body{
-	background:#0f172a;
-	color:white;
-}
+		header{
+			display:flex;
+			justify-content:space-between;
+			align-items:center;
+			padding:20px 10%;
+			background:#111827;
+			position:fixed;
+			width:100%;
+		}
 
-header{
-	display:flex;
-	justify-content:space-between;
-	align-items:center;
-	padding:20px 10%;
-	background:#111827;
-	position:fixed;
-	width:100%;
-}
+		.logo{
 
-.logo{
+			font-size:28px;
+			color:#3b82f6;
+			font-weight:bold;
+		}
 
-	font-size:28px;
-	color:#3b82f6;
-	font-weight:bold;
-}
+		nav a{
+			color:white;
+			text-decoration:none;
+			margin-left:25px;
+			transition:.3s;
+		}
 
-nav a{
-	color:white;
-	text-decoration:none;
-	margin-left:25px;
-	transition:.3s;
-}
+		nav a:hover{
+			color:#3b82f6;
+		}
 
-nav a:hover{
-	color:#3b82f6;
-}
-
-.hero{
-	display:flex;
-	justify-content:space-between;
-	align-items:center;
-	min-height:100vh;
-	padding:120px 10%;
-}
-.content{
-	width:50%;
-}
-.content h3{
-	font-size:25px;
-}
-.content h1{
-	font-size:60px;
-	color:#3b82f6;
-}
-.content h2{
-	margin:15px 0;
-}
-.content p{
-	margin-bottom:30px;
-	line-height:30px;
-}
-.btn{
-	display:inline-block;
-	background:#10b981;
-	color:white;
-	padding:12px 30px;
-	border-radius:30px;
-	text-decoration:none;
-	margin-right:10px;
-}
-.btn2{
-	display:inline-block;
-	border:3px solid #10b981;
-	color:white;
-	padding:12px 30px;
-	border-radius:30px;
-	text-decoration:none;
-}
-.btn:hover{
-	background:#2563eb;
-}
-.btn2:hover{
-	background:#3b82f6;
-}
-.image img{
-	width:400px;
-	border-radius:50%;
-	border:5px solid #3b82f6;
-	box-shadow:0 0 30px #3b82f6;
-}
-</style>
+		.hero{
+			display:flex;
+			justify-content:space-between;
+			align-items:center;
+			min-height:90vh;
+			padding:120px 10%;
+		}
+		.content{
+			width:50%;
+		}
+		.content h3{
+			font-size:25px;
+		}
+		.content h1{
+			font-size:60px;
+			color:#3b82f6;
+		}
+		.content h2{
+			margin:15px 0;
+		}
+		.content p{
+			margin-bottom:30px;
+			line-height:30px;
+		}
+		.btn{
+			display:inline-block;
+			background:#10b981;
+			color:white;
+			padding:12px 30px;
+			border-radius:30px;
+			text-decoration:none;
+			margin-right:10px;
+		}
+		.btn2{
+			display:inline-block;
+			border:3px solid #10b981;
+			color:white;
+			padding:12px 30px;
+			border-radius:30px;
+			text-decoration:none;
+		}
+		.btn:hover{
+			background:#2563eb;
+		}
+		.btn2:hover{
+			background:#3b82f6;
+		}
+		.image img{
+			width:400px;
+			border-radius:50%;
+			border:5px solid #3b82f6;
+			box-shadow:0 0 30px #3b82f6;
+		}
+	</style>
+</section>
 
 <section id="education" class="education">
 
@@ -167,42 +228,38 @@ nav a:hover{
 
 		</div>
 
-<style>
-.education{
-	padding:100px 10%;
-	text-align:center;
-}
-.education h2{
-	color:#3b82f6;
-	font-size:40px;
-	margin-bottom:50px;
-}
-.timeline{
-	display:flex;
-	justify-content:space-between;
-	flex-wrap:wrap;
-	gap:20px;
-}
-.card{
-	background:#1e293b;
-	width:230px;
-	padding:30px;
-	border-radius:15px;
-	transition:.4s;
-}
-.card:hover{
-	transform:translateY(-10px);
-	box-shadow:0 0 20px #3b82f6;
-}
-.card h3{
-	color:#3b82f6;
-	margin-bottom:15px;
-}
-
-<br>
-	<a href="logout.php">Logout</a>
-
-</style>
+	<style>
+		.education{
+			padding:60px 10%;
+			text-align:center;
+		}
+		.education h2{
+			color:#3b82f6;
+			font-size:40px;
+			margin-bottom:50px;
+		}
+		.timeline{
+			display:flex;
+			justify-content:center;
+			flex-wrap:wrap;
+			gap:20px;
+		}
+		.card{
+			background:#1e293b;
+			width:230px;
+			padding:30px;
+			border-radius:15px;
+			transition:.4s;
+		}
+		.card:hover{
+			transform:translateY(-10px);
+			box-shadow:0 0 20px #3b82f6;
+		}
+		.card h3{
+			color:#3b82f6;
+			margin-bottom:15px;
+		}
+	</style>
 </section>
 </body>
 </html>
